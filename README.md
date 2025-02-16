@@ -10,5 +10,5 @@ ssh-keygen -t rsa -b 4096 -m pem -f roger_linux_kp.pem && chmod 400 roger_linux_
 
 
 After keypair created, 
-goto aws key_pair console to import the roger_kp.pub,
-ssh from where the roger_kp is located in your local machine.
+goto aws key_pair console to import the roger_win_kp.pub / roger_linux_kp,
+ssh from where the roger_win_kp / roger_linux_kp is located in your local machine.
